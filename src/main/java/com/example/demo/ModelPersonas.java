@@ -16,9 +16,14 @@ public class ModelPersonas {
     @Id
     @Column(name = "clave")
     private String clave;
+    
     @Column(name = "nombre")
     private String nombre;
+    
+    @Column(name = "direccion")
     private String direccion;
+    
+    @Column(name = "telefono")
     private String telefono;
 
     public String getClave() {
